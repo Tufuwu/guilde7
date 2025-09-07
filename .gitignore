@@ -1,17 +1,16 @@
-.idea/
-venv
-*.pyc
-*.pyo
-*.swp
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-feedgen/tests/tmp_Atomfeed.xml
-
-feedgen/tests/tmp_Rssfeed.xml
-
-tmp_Atomfeed.xml
-
-tmp_Rssfeed.xml
-
-# testing artifacts
-.coverage
+# Distribution / packaging
+build/
+dist/
 *.egg-info/
+.eggs/
+
+# Dev tools
+.idea
+
+# Environments
+/.venv
